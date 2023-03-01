@@ -1,4 +1,3 @@
-#inlude <stdio.h>
 #include <stdlib.h>
 #include <string.h>
 #include "binary_trees.h"
@@ -96,4 +95,4 @@ void binary_tree_print(const binary_tree_t *tree)
 		free(s[i]);
 	}
 	free(s);
-}c
+}
